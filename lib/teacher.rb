@@ -10,6 +10,6 @@ end
 def teach()
   @capacity = @knowledge.size
   binding.pry 
-  return(@knowledge[rand(0, (@capacity - 1))]) || nil
+  return(@knowledge[rand(@capacity - 1)]) || nil
 end
 end
